@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hp/CAdvanced/demo/lesson07/cqueue.c
+cqueue.h
+/home/hp/CAdvanced/demo/lesson07/cqueue.h
+
+/home/hp/CAdvanced/demo/lesson07/cqueue.h
+stddef.h
+-
+../../libfdr/dllist.h
+/home/hp/CAdvanced/libfdr/dllist.h
+../../libfdr/jval.h
+/home/hp/CAdvanced/libfdr/jval.h
+
+/home/hp/CAdvanced/libfdr/dllist.h
+jval.h
+/home/hp/CAdvanced/libfdr/jval.h
+
+/home/hp/CAdvanced/libfdr/jval.h
+

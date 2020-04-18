@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/cqueue_demo.dir/cqueue_demo.c.o CMakeFiles/cqueue_demo.dir/cqueue.c.o  -o cqueue_demo ../libfdr/libfdr.a 

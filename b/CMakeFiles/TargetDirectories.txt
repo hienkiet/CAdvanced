@@ -2,9 +2,10 @@
 /home/hp/CAdvanced/b/CMakeFiles/demo_debug_printf.dir
 /home/hp/CAdvanced/b/CMakeFiles/rebuild_cache.dir
 /home/hp/CAdvanced/b/CMakeFiles/qsort_demo.dir
+/home/hp/CAdvanced/b/assignments/CMakeFiles/edit_cache.dir
 /home/hp/CAdvanced/b/assignments/CMakeFiles/rebuild_cache.dir
 /home/hp/CAdvanced/b/assignments/CMakeFiles/cqueue_demo.dir
-/home/hp/CAdvanced/b/assignments/CMakeFiles/edit_cache.dir
+/home/hp/CAdvanced/b/assignments/CMakeFiles/cjset_t1.dir
 /home/hp/CAdvanced/b/DebugPrintf/CMakeFiles/rebuild_cache.dir
 /home/hp/CAdvanced/b/DebugPrintf/CMakeFiles/debug_printf.dir
 /home/hp/CAdvanced/b/DebugPrintf/CMakeFiles/edit_cache.dir

@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/hp/CAdvanced/b
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -124,6 +124,75 @@ cqueue_demo: assignments/CMakeFiles/cqueue_demo.dir/rule
 cqueue_demo/fast:
 	cd /home/hp/CAdvanced/b && $(MAKE) -f assignments/CMakeFiles/cqueue_demo.dir/build.make assignments/CMakeFiles/cqueue_demo.dir/build
 .PHONY : cqueue_demo/fast
+
+# Convenience name for target.
+assignments/CMakeFiles/cjset_t1.dir/rule:
+	cd /home/hp/CAdvanced/b && $(MAKE) -f CMakeFiles/Makefile2 assignments/CMakeFiles/cjset_t1.dir/rule
+.PHONY : assignments/CMakeFiles/cjset_t1.dir/rule
+
+# Convenience name for target.
+cjset_t1: assignments/CMakeFiles/cjset_t1.dir/rule
+
+.PHONY : cjset_t1
+
+# fast build rule for target.
+cjset_t1/fast:
+	cd /home/hp/CAdvanced/b && $(MAKE) -f assignments/CMakeFiles/cjset_t1.dir/build.make assignments/CMakeFiles/cjset_t1.dir/build
+.PHONY : cjset_t1/fast
+
+cjset.o: cjset.c.o
+
+.PHONY : cjset.o
+
+# target to build an object file
+cjset.c.o:
+	cd /home/hp/CAdvanced/b && $(MAKE) -f assignments/CMakeFiles/cjset_t1.dir/build.make assignments/CMakeFiles/cjset_t1.dir/cjset.c.o
+.PHONY : cjset.c.o
+
+cjset.i: cjset.c.i
+
+.PHONY : cjset.i
+
+# target to preprocess a source file
+cjset.c.i:
+	cd /home/hp/CAdvanced/b && $(MAKE) -f assignments/CMakeFiles/cjset_t1.dir/build.make assignments/CMakeFiles/cjset_t1.dir/cjset.c.i
+.PHONY : cjset.c.i
+
+cjset.s: cjset.c.s
+
+.PHONY : cjset.s
+
+# target to generate assembly for a file
+cjset.c.s:
+	cd /home/hp/CAdvanced/b && $(MAKE) -f assignments/CMakeFiles/cjset_t1.dir/build.make assignments/CMakeFiles/cjset_t1.dir/cjset.c.s
+.PHONY : cjset.c.s
+
+cjset_t1.o: cjset_t1.c.o
+
+.PHONY : cjset_t1.o
+
+# target to build an object file
+cjset_t1.c.o:
+	cd /home/hp/CAdvanced/b && $(MAKE) -f assignments/CMakeFiles/cjset_t1.dir/build.make assignments/CMakeFiles/cjset_t1.dir/cjset_t1.c.o
+.PHONY : cjset_t1.c.o
+
+cjset_t1.i: cjset_t1.c.i
+
+.PHONY : cjset_t1.i
+
+# target to preprocess a source file
+cjset_t1.c.i:
+	cd /home/hp/CAdvanced/b && $(MAKE) -f assignments/CMakeFiles/cjset_t1.dir/build.make assignments/CMakeFiles/cjset_t1.dir/cjset_t1.c.i
+.PHONY : cjset_t1.c.i
+
+cjset_t1.s: cjset_t1.c.s
+
+.PHONY : cjset_t1.s
+
+# target to generate assembly for a file
+cjset_t1.c.s:
+	cd /home/hp/CAdvanced/b && $(MAKE) -f assignments/CMakeFiles/cjset_t1.dir/build.make assignments/CMakeFiles/cjset_t1.dir/cjset_t1.c.s
+.PHONY : cjset_t1.c.s
 
 cqueue.o: cqueue.c.o
 
@@ -185,9 +254,16 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cqueue_demo"
-	@echo "... edit_cache"
+	@echo "... cjset_t1"
+	@echo "... cjset.o"
+	@echo "... cjset.i"
+	@echo "... cjset.s"
+	@echo "... cjset_t1.o"
+	@echo "... cjset_t1.i"
+	@echo "... cjset_t1.s"
 	@echo "... cqueue.o"
 	@echo "... cqueue.i"
 	@echo "... cqueue.s"

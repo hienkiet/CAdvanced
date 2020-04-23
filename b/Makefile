@@ -150,6 +150,19 @@ cqueue_demo/fast:
 .PHONY : cqueue_demo/fast
 
 #=============================================================================
+# Target rules for targets named cjset_t1
+
+# Build rule for target.
+cjset_t1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cjset_t1
+.PHONY : cjset_t1
+
+# fast build rule for target.
+cjset_t1/fast:
+	$(MAKE) -f assignments/CMakeFiles/cjset_t1.dir/build.make assignments/CMakeFiles/cjset_t1.dir/build
+.PHONY : cjset_t1/fast
+
+#=============================================================================
 # Target rules for targets named debug_printf
 
 # Build rule for target.
@@ -526,6 +539,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... qsort_demo"
 	@echo "... cqueue_demo"
+	@echo "... cjset_t1"
 	@echo "... debug_printf"
 	@echo "... mylib"
 	@echo "... fdr"

@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/power2.dir/power2.c.o  -o power2 

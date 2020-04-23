@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/qsort_demo.dir/Quick_Sort.c.o  -o qsort_demo 

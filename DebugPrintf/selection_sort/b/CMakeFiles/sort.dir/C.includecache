@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hp/Desktop/selection_sort/selection_sort.c
+stdio.h
+-
+

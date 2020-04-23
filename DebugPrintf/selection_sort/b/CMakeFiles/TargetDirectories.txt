@@ -1,0 +1,3 @@
+/home/hp/Desktop/selection_sort/b/CMakeFiles/rebuild_cache.dir
+/home/hp/Desktop/selection_sort/b/CMakeFiles/sort.dir
+/home/hp/Desktop/selection_sort/b/CMakeFiles/edit_cache.dir

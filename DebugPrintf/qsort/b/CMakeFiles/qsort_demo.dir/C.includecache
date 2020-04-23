@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hp/Desktop/qsort/DebugPrintf/debug_printf.h
+stdarg.h
+-
+stdio.h
+-
+
+/home/hp/Desktop/qsort/Quick_Sort.c
+stdio.h
+-
+stdlib.h
+-
+DebugPrintf/debug_printf.h
+/home/hp/Desktop/qsort/DebugPrintf/debug_printf.h
+

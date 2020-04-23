@@ -21,3 +21,6 @@ add_executable(power2_gui power2_gui.c)
 target_link_libraries(power2_gui ${GTK3_LIBRARIES})
 add_executable(power2_gui_builder power2_gui_builder.c)
 target_link_libraries(power2_gui_builder ${GTK3_LIBRARIES})
+add_executable(gtk_test gtk_test.c)
+target_link_libraries(gtk_test ${GTK3_LIBRARIES})
+

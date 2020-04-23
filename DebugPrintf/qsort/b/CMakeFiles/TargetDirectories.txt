@@ -1,0 +1,3 @@
+/home/hp/Desktop/qsort/b/CMakeFiles/rebuild_cache.dir
+/home/hp/Desktop/qsort/b/CMakeFiles/qsort_demo.dir
+/home/hp/Desktop/qsort/b/CMakeFiles/edit_cache.dir

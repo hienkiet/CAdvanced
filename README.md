@@ -1,5 +1,5 @@
 # CAdvanced
-Tài nguyên học tập cho khóa CAdvanced
+Tài nguyên cho khóa CAdvanced
 
 Nên sử dụng lệnh sau để tạo bản sao cùng với các mô-đun con:
 ```

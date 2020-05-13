@@ -202,6 +202,19 @@ fdr/fast:
 .PHONY : fdr/fast
 
 #=============================================================================
+# Target rules for targets named c-vector-example
+
+# Build rule for target.
+c-vector-example: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 c-vector-example
+.PHONY : c-vector-example
+
+# fast build rule for target.
+c-vector-example/fast:
+	$(MAKE) -f c-vector/CMakeFiles/c-vector-example.dir/build.make c-vector/CMakeFiles/c-vector-example.dir/build
+.PHONY : c-vector-example/fast
+
+#=============================================================================
 # Target rules for targets named fp_demo
 
 # Build rule for target.
@@ -474,6 +487,32 @@ containers/fast:
 	$(MAKE) -f demo/lesson06/CMakeFiles/containers.dir/build.make demo/lesson06/CMakeFiles/containers.dir/build
 .PHONY : containers/fast
 
+#=============================================================================
+# Target rules for targets named containers1
+
+# Build rule for target.
+containers1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 containers1
+.PHONY : containers1
+
+# fast build rule for target.
+containers1/fast:
+	$(MAKE) -f demo/lesson08/CMakeFiles/containers1.dir/build.make demo/lesson08/CMakeFiles/containers1.dir/build
+.PHONY : containers1/fast
+
+#=============================================================================
+# Target rules for targets named graph_basics
+
+# Build rule for target.
+graph_basics: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 graph_basics
+.PHONY : graph_basics
+
+# fast build rule for target.
+graph_basics/fast:
+	$(MAKE) -f demo/lesson08/CMakeFiles/graph_basics.dir/build.make demo/lesson08/CMakeFiles/graph_basics.dir/build
+.PHONY : graph_basics/fast
+
 demo/environment/demo_debug_printf.o: demo/environment/demo_debug_printf.c.o
 
 .PHONY : demo/environment/demo_debug_printf.o
@@ -543,6 +582,7 @@ help:
 	@echo "... debug_printf"
 	@echo "... mylib"
 	@echo "... fdr"
+	@echo "... c-vector-example"
 	@echo "... fp_demo"
 	@echo "... demo_function_declarator"
 	@echo "... union_demo"
@@ -564,6 +604,8 @@ help:
 	@echo "... jrb_ni_sort1"
 	@echo "... jrb_test_insert"
 	@echo "... containers"
+	@echo "... containers1"
+	@echo "... graph_basics"
 	@echo "... demo/environment/demo_debug_printf.o"
 	@echo "... demo/environment/demo_debug_printf.i"
 	@echo "... demo/environment/demo_debug_printf.s"

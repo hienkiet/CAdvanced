@@ -11,12 +11,16 @@ if (GPROF_FLAG)
 endif (GPROF_FLAG)
 
 add_subdirectory(assignments)
+
+
 add_subdirectory(DebugPrintf)
 add_subdirectory(mylib)
 add_subdirectory(libfdr)
+add_subdirectory(c-vector)
 #add_subdirectory(cmake-btree)
 #add_subdirectory(cmake-gtk)
 #add_subdirectory(cmake-sqlite)
+
 include_directories(${CMAKE_SOURCE_DIR} ${CMAKE_SOURCE_DIR}/libfdr)
 
 add_executable(demo_debug_printf demo/environment/demo_debug_printf.c)

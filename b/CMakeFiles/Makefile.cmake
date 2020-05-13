@@ -13,11 +13,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.10.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeSystem.cmake"
+  "../c-vector/CMakeLists.txt"
   "../demo/lesson02/CMakeLists.txt"
   "../demo/lesson03/CMakeLists.txt"
   "../demo/lesson04/CMakeLists.txt"
   "../demo/lesson05/CMakeLists.txt"
   "../demo/lesson06/CMakeLists.txt"
+  "../demo/lesson08/CMakeLists.txt"
   "../libfdr/CMakeLists.txt"
   "../mylib/CMakeLists.txt"
   "/usr/share/cmake-3.10/Modules/CMakeCInformation.cmake"
@@ -51,11 +53,13 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "DebugPrintf/CMakeFiles/CMakeDirectoryInformation.cmake"
   "mylib/CMakeFiles/CMakeDirectoryInformation.cmake"
   "libfdr/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "c-vector/CMakeFiles/CMakeDirectoryInformation.cmake"
   "demo/lesson02/CMakeFiles/CMakeDirectoryInformation.cmake"
   "demo/lesson03/CMakeFiles/CMakeDirectoryInformation.cmake"
   "demo/lesson04/CMakeFiles/CMakeDirectoryInformation.cmake"
   "demo/lesson05/CMakeFiles/CMakeDirectoryInformation.cmake"
   "demo/lesson06/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "demo/lesson08/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -67,6 +71,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "DebugPrintf/CMakeFiles/debug_printf.dir/DependInfo.cmake"
   "mylib/CMakeFiles/mylib.dir/DependInfo.cmake"
   "libfdr/CMakeFiles/fdr.dir/DependInfo.cmake"
+  "c-vector/CMakeFiles/c-vector-example.dir/DependInfo.cmake"
   "demo/lesson02/CMakeFiles/fp_demo.dir/DependInfo.cmake"
   "demo/lesson02/CMakeFiles/demo_function_declarator.dir/DependInfo.cmake"
   "demo/lesson02/CMakeFiles/union_demo.dir/DependInfo.cmake"
@@ -88,4 +93,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "demo/lesson05/CMakeFiles/jrb_ni_sort1.dir/DependInfo.cmake"
   "demo/lesson05/CMakeFiles/jrb_test_insert.dir/DependInfo.cmake"
   "demo/lesson06/CMakeFiles/containers.dir/DependInfo.cmake"
+  "demo/lesson08/CMakeFiles/containers1.dir/DependInfo.cmake"
+  "demo/lesson08/CMakeFiles/graph_basics.dir/DependInfo.cmake"
   )

@@ -10,6 +10,10 @@ git clone --recurse-submodules https://github.com/bangoc/CAdvanced.git
 ```
 git pull --recurse-submodules
 ```
+Để kiểm tra tài khoản git hiện tại : 
+'''
+git remote show origin
+
 
 Một số lệnh thông dụng để làm việc với thẻ:
 * Xem danh sách thẻ: ```git tag```

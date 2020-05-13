@@ -15,6 +15,9 @@
 /home/hp/CAdvanced/b/libfdr/CMakeFiles/rebuild_cache.dir
 /home/hp/CAdvanced/b/libfdr/CMakeFiles/fdr.dir
 /home/hp/CAdvanced/b/libfdr/CMakeFiles/edit_cache.dir
+/home/hp/CAdvanced/b/c-vector/CMakeFiles/rebuild_cache.dir
+/home/hp/CAdvanced/b/c-vector/CMakeFiles/edit_cache.dir
+/home/hp/CAdvanced/b/c-vector/CMakeFiles/c-vector-example.dir
 /home/hp/CAdvanced/b/demo/lesson02/CMakeFiles/rebuild_cache.dir
 /home/hp/CAdvanced/b/demo/lesson02/CMakeFiles/edit_cache.dir
 /home/hp/CAdvanced/b/demo/lesson02/CMakeFiles/fp_demo.dir
@@ -46,3 +49,7 @@
 /home/hp/CAdvanced/b/demo/lesson06/CMakeFiles/rebuild_cache.dir
 /home/hp/CAdvanced/b/demo/lesson06/CMakeFiles/containers.dir
 /home/hp/CAdvanced/b/demo/lesson06/CMakeFiles/edit_cache.dir
+/home/hp/CAdvanced/b/demo/lesson08/CMakeFiles/edit_cache.dir
+/home/hp/CAdvanced/b/demo/lesson08/CMakeFiles/rebuild_cache.dir
+/home/hp/CAdvanced/b/demo/lesson08/CMakeFiles/containers1.dir
+/home/hp/CAdvanced/b/demo/lesson08/CMakeFiles/graph_basics.dir

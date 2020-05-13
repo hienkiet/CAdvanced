@@ -43,11 +43,13 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/hp/CAdvanced/b/DebugPrintf/cmake_install.cmake")
   include("/home/hp/CAdvanced/b/mylib/cmake_install.cmake")
   include("/home/hp/CAdvanced/b/libfdr/cmake_install.cmake")
+  include("/home/hp/CAdvanced/b/c-vector/cmake_install.cmake")
   include("/home/hp/CAdvanced/b/demo/lesson02/cmake_install.cmake")
   include("/home/hp/CAdvanced/b/demo/lesson03/cmake_install.cmake")
   include("/home/hp/CAdvanced/b/demo/lesson04/cmake_install.cmake")
   include("/home/hp/CAdvanced/b/demo/lesson05/cmake_install.cmake")
   include("/home/hp/CAdvanced/b/demo/lesson06/cmake_install.cmake")
+  include("/home/hp/CAdvanced/b/demo/lesson08/cmake_install.cmake")
 
 endif()
 

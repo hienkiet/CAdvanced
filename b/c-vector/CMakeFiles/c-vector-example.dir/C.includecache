@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hp/CAdvanced/c-vector/cvector.h
+assert.h
+-
+stddef.h
+-
+stdlib.h
+-
+
+/home/hp/CAdvanced/c-vector/example.c
+cvector.h
+/home/hp/CAdvanced/c-vector/cvector.h
+stdio.h
+-
+

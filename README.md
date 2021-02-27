@@ -35,3 +35,9 @@ Một số cách xem các thay đổi đã được thực hiện trong 1 commit
 
 ## Bài tập
 Các bài tập đi kèm được lưu riêng trong nhánh ```baitap``` (xem thư mục ```assignments```)
+##
+Cách sử dụng file tải về : 
+- Cần cài đặt gtk ++3 và gdk ( trang chủ gõ là ra ) 
+- Cài đặt ide để chạy gtk. trình duyệt nếu nhác và muốn làm thủ công thay vì vừa code vừa tưởng tượng.
+- Chạy : mkdir b / cd b / cmake .. / make
+- Yêu cầu cài : git  và cmake : sudo apt-get install git  hoặc cmake

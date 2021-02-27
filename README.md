@@ -41,3 +41,14 @@ Cách sử dụng file tải về :
 - Cài đặt ide để chạy gtk. trình duyệt nếu nhác và muốn làm thủ công thay vì vừa code vừa tưởng tượng.
 - Chạy : mkdir b / cd b / cmake .. / make
 - Yêu cầu cài : git  và cmake : sudo apt-get install git  hoặc cmake
+
+## upload lên git
+- tạo repo 
+-clone về repo
+-terminal trong repo mới về 
+-git remote add origin git@github.com:....
+-git add .
+-git commit -m""
+-git push -u origin master
+
+-
